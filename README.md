@@ -1,17 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# Shipboard - Ship Maintenance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Shipboard is a React-based frontend application for managing ships, components, and maintenance jobs. It offers role-based access, CRUD operations, job tracking, and an in-app notification system to help streamline ship maintenance processes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup and Installation
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# shipboard
-my frontend project on shipboard dashboard
->>>>>>> d0f6aca9c8501e21247d04df9aac5d2a1ccdef87
+### Steps to run locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/meetchauhan1/shipboard.git
+   cd shipboard
+2. Install dependencies:
+   npm install

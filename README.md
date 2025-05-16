@@ -30,6 +30,3 @@ Shipboard is a React-based frontend application for managing ships, components, 
 4.Open your browser and go to:
    ```bash
       http://localhost:5173/
-
-
-

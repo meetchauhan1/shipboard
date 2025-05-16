@@ -32,7 +32,4 @@ Shipboard is a React-based frontend application for managing ships, components, 
       http://localhost:5173/
 
 
-      
-
-
 

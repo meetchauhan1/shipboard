@@ -28,6 +28,10 @@ Shipboard is a React-based frontend application for managing ships, components, 
    ```bash
       npm start
 4.Open your browser and go to:
+Open your browser and go to:
+         ```arduino
+
+            http://localhost:3000
 
 ## Application Architecture
 

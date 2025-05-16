@@ -8,8 +8,8 @@ Shipboard is a React-based frontend application for managing ships, components, 
 ## Setup and Installation
 
 ### Prerequisites
-- Node.js (v16 or higher recommended)
-- npm or yarn
+
+- npm 
 
 ### Steps to run locally
 
@@ -17,82 +17,16 @@ Shipboard is a React-based frontend application for managing ships, components, 
    ```bash
    git clone https://github.com/meetchauhan1/shipboard.git
    cd shipboard
-Install dependencies:
 
-bash
-Copy
-Edit
-npm install
-or
+2. Install dependencies:
 
-bash
-Copy
-Edit
-yarn install
-Start the development server:
+   ```bash
+   npm install
 
-bash
-Copy
-Edit
-npm start
-or
+3. Start the development server:
 
-bash
-Copy
-Edit
-yarn start
-Open your browser and go to:
-
-arduino
-Copy
-Edit
-http://localhost:3000
-Application Architecture
-Framework: React (functional components + hooks)
-
-Routing: React Router v6 with protected routes
-
-State Management: React Context API for global states (AuthContext, ShipsContext, ComponentsContext, JobsContext, NotificationContext)
-
-Persistence: Browser localStorage for demo data and state persistence
-
-Notifications: In-app notification center for Job events (Created, Updated, Completed)
-
-UI: Simple CSS with Flexbox layouts; can be extended with Material-UI or other libraries
-
-Features
-User authentication (mock)
-
-Manage Ships (Create, Read, Update, Delete)
-
-Manage Components linked to ships
-
-Manage Maintenance Jobs with status tracking
-
-Calendar view for scheduled jobs
-
-Real-time in-app notifications for job events
-
-LocalStorage based persistence for demo and testing
-
-Known Issues and Limitations
-No backend server or API integration; all data lives in localStorage
-
-Authentication is simulated; no real security or user management
-
-Notifications are session-based and need manual dismissal
-
-Basic UI/UX without responsiveness or accessibility optimizations
-
-Minimal input validation and error handling
-
-Technical Decisions
-React Context API: For straightforward global state without Redux complexity
-
-localStorage: Quick prototype persistence, no backend dependencies
-
-React Router v6: Modern routing with support for protected routes
-
+```bash
+   npm start
 Functional Components & Hooks: Aligns with current React best practices
 
 Modular structure: Organized by feature for scalability and maintenance

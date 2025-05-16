@@ -1,0 +1,38 @@
+/* Container holding left image and right form */
+.login-container {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Image */
+.login-image {
+  display: block;
+}
+
+
+/* Form box with shadow and radius */
+.login-form-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 600px) {
+  .login-form-box {
+    width: 90% !important;
+  }
+}
+
+/* Responsive tweaks for tablets */
+@media (min-width: 601px) and (max-width: 960px) {
+  .login-form-box {
+    width: 400px !important;
+  }
+}
